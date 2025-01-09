@@ -13,6 +13,7 @@ import {
   fetchTodos,
   Todo,
 } from "./store/todoSlice";
+import Header from './Header';
 
 // interface Todo {
 //   id: number;
@@ -99,6 +100,7 @@ function App() {
 
   return (
     <>
+    {/* <Header /> */}
       {/* {todos.map((todo) => (
         <div key={todo.id} className="divTodo">
           <p

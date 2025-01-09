@@ -110,3 +110,85 @@ h1 {
 .button-fetch{
   margin-bottom: 10px;
 }
+
+
+/* pour le header --------------------------------------------------------------------------------- */
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header styles */
+.header {
+  width: 100%;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-content {
+  display: flex;
+  align-items: baseline;
+}
+
+/* Logo styles */
+.logo {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+
+.logo-bold {
+  font-weight: 500;
+}
+
+/* Spacer for flex alignment */
+.spacer {
+  flex: 1;
+}
+
+/* Social links styles */
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  color: #333;
+  text-decoration: none;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.social-button:hover {
+  background: #f0f0f0;
+  border-color: #bbb;
+  color: #000;
+}
+
+/* Icon styles */
+.icon {
+  width: 1rem;
+  height: 1rem;
+}
